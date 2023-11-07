@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            html {
+                background:red;
+            }
+            .list {
+                text-align:left;
+                color:purple;
+                font-style:italic;
+                line-height:1.55em;
+                font-family:sans-serif;
+                
+            }
+            ul {
+                background:rgb(189, 213, 217);
+                
+            }
+            .picture{
+                background:rgb(189, 213, 217);
+                float:left;
+                margin-right:30px;
+                border:6px ridge purple;
+            }
+            p {
+                font-weight:bold;
+                background-color:yellow;
+                text-align:left;
+                font-family:fantasy;
+                font-size:16px;
+                height:25px;
+            }
+            h1 {
+                text-align:center;
+                color:pink;
+                font-weight:bold;
+            }
+            h2 {
+                text-align:center;
+                color:orange;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>You're invited!</h1>
+        <h2>To Joe's Big Gathering!</h2>
+        <img class="picture" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/spunky-sam-red.png">
+        <p>The Details:</p>
+        <ul><span class="list">
+            <li>May 5th 1997</li>
+            <li>Joe's House</li>
+            <li>123 avenue (for those who don't know)</li>
+            <li>7pm</li>
+        </span>
+        </ul>
+        <h2>Come to Joe's!!!</h2>
+    </body>
+</html>
